@@ -6,9 +6,9 @@ const message = document.querySelector("#msg")
 
 if(validator.isEmail(email)) {
     message.textContent = "Email je v pořádku.";
-    message.classList.add("msg--valid")
+    message.classList.add("msg--valid");
     console.log("ok");
 } else {
     message.textContent = "Neplatný email.";
-    message.classList.add("msg--invalid")
+    message.classList.add("msg--invalid");
 }
